@@ -15,4 +15,7 @@
 //= require fullcalendar
 //= require listjs
 //= require daterangepicker
+//= require calendar
+//= require calendars/appointment-availability
+//= require calendars/guider-slot-picker
 //= require_tree .
