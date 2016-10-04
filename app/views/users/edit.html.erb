@@ -8,6 +8,8 @@
   <h1>Edit User "<%=@guider.name %>"</h1>
 </div>
 
+<div data-module="GuiderSchedulesCalendar"></div>
+
 <%= link_to new_user_schedule_path(@guider), class: 'btn btn-primary' do %>
   <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> Add schedule
 <% end %>
