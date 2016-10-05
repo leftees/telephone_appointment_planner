@@ -64,3 +64,34 @@
     transform: translateY(120px) rotate(-90deg);
   }
 }
+
+.guider-schedules {
+  margin-top: 1em;
+  overflow: hidden;
+}
+
+.guider-schedules__month {
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+
+  &:first-child {
+    border-left: 1px solid #ddd;
+  }
+}
+
+.guider-schedules__schedules-outer {
+  position: relative;
+}
+
+.guider-schedules__six-week-window {
+  position: absolute;
+  background: #f7f2c3;
+  border: 1px dashed #ccc;
+}
+
+.guider-schedules__schedule {
+  background: red;
+  border: 1px solid #000;
+  height: 25px;
+  margin-top: 10px;
+}
