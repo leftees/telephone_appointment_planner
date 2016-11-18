@@ -1,5 +1,7 @@
 class AuditActivity < Activity
   def self.from(audit, appointment)
+    return if audit.audited_changes.keys == ['guider_id']
+
     activity = create!(
       user_id: audit.user_id,
       owner_id: appointment.guider.id,
